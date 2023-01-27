@@ -16,3 +16,9 @@ let numberOfMonths = 12 // let using for constant value
 
 var candy = "Imli"
 
+var weight : Int = 30
+
+let name1 : String = "Ajju"
+
+let time = 60
+
