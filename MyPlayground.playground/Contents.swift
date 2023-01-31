@@ -38,6 +38,34 @@ print("New Program!")
 var luckyNumber = 28472
 print(luckyNumber)
 
+// Math, Doubles and Floats
+
+print( 7 + 6 )
+print(7 - 6 )
+print(7 / 6 )
+print(6 / 7 )
+print(7 * 6 )
+
+var weight1 : Double = 123.34456878675656756  // 123.34456878675657
+var weight2 : Float = 123.34456878675656756  // 123.34457
+var weight3 = 123.34456878675656756  // By default its taking Double
+var age1 = 30
+
+//TypeCast
+print(age1 * Int(weight1))  //TypeCast // Automatic casting: double to int
+
+print(Double(age1) * weight1) //TypeCast // Automatic casting: int to double
+
+//Find out how many inches tall you are
+let inche = 7
+let foot = 6
+//ther are 12 inches in one foot
+foot * 12 + inche
+
+
+
+
+
 
 
 
