@@ -62,6 +62,30 @@ let foot = 6
 //ther are 12 inches in one foot
 foot * 12 + inche
 
+//Booleans
+
+var canRiderSwim : Bool = false
+var canRiderRide : Bool = true
+var canRiderSwim1 = false
+
+//If Statements
+
+var height = 50
+
+height > 10 // CONDITIONAL OPERATOR (<,>,==,!=,>=,<=)
+
+if height >= 50 {
+    print("Print If")
+}
+
+let height1 = 8
+if height1 < 10 {
+    print("Number is less than 10")
+}
+
+
+
+
 
 
 
