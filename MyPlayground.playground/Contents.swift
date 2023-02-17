@@ -83,6 +83,21 @@ if height1 < 10 {
     print("Number is less than 10")
 }
 
+//Else, And, Or (&&,||)
+let height3 = 99
+var height4 = 50
+if height3 <= 10 && height4 <=  20 {
+    print("Number is less than 10")
+} else {
+    print("Number is greater than 10")
+}
+
+if name == "Upendra Sahu" && age == 31{
+    print("Person name is correct")
+}else{
+    print("Person name is incorrect")
+}
+
 
 
 
