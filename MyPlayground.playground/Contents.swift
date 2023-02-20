@@ -98,6 +98,25 @@ if name == "Upendra Sahu" && age == 31{
     print("Person name is incorrect")
 }
 
+// Arrays
+var movies = ["one ","two","three","four","five"]
+print(movies)
+print(movies[2])
+movies.append("six") // add one more value in string
+movies.insert("ten", at:0)   // add value at index position
+movies.remove(at: 3)
+movies
+movies.count
+
+var movies1 : [Any] = ["one ","two","three","four","five",8]   //Add any for for both string and integer
+movies1.append(10)
+
+let movies2 : [Any] = ["one ","two","three","four","five",8]   //Add any for for both string and integer
+print(movies2)
+
+
+
+
 
 
 
