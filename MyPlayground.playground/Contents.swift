@@ -114,8 +114,32 @@ movies1.append(10)
 let movies2 : [Any] = ["one ","two","three","four","five",8]   //Add any for for both string and integer
 print(movies2)
 
+//Loops
 
+var movies3 = ["one1 ","two2","three3","four4","five5"]
 
+for _ in 1...10{
+    print("Hello")
+}
+
+for number in 1...10{
+    print(number)
+}
+
+for number in 1...10{
+    print(number)
+}
+
+for movie in movies {
+    print(movie)
+}
+///////////////////////////////////LUCKY NUMBER/////////////////////////////////////////////
+let luckyNumbers = [23,43,46,57,23,121,0,12,]
+var rank = 1
+for number in luckyNumbers {
+print("\(rank). \(number)")
+    rank += 1
+}
 
 
 
