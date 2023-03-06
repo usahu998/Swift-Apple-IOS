@@ -186,3 +186,9 @@ var favFood : Set =  ["Momos","Samosa","Dosa","Idli","Idli","maggi"]
 favFood.insert("Pizza")
 favFood
 
+// Dictionaries
+
+var colours = ["Colors":"red","Birds":"peacock","flower":"rose"]
+colours["Colors"]
+colours.removeValue(forKey: "Birds")
+colours
