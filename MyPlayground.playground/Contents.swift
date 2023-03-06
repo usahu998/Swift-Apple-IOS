@@ -192,3 +192,29 @@ var colours = ["Colors":"red","Birds":"peacock","flower":"rose"]
 colours["Colors"]
 colours.removeValue(forKey: "Birds")
 colours
+////////////////////////////////////////////////////////
+// Functions
+
+func hello(person : String) {
+    print("Hello \(person)!")
+}
+
+hello(person: "Upen")
+hello(person: "Upasna")
+hello(person: "Ajju")
+/////////////////////////////////////////////////////////////////////////
+
+func add(num1 : Int,num2 : Int){
+    print(num1 + num2)
+}
+
+add(num1: 2, num2: 10)
+///////////////////////////////////////////////////
+func add1(num1 : Int,num2 : Int) -> Int {
+    return num1 + num2
+}
+
+var c = add1(num1: 9, num2: 22)
+var d = add1(num1: 92, num2: 12)
+var sum = add1(num1: c, num2: d)
+print("sum of numbers= \(sum)!")
