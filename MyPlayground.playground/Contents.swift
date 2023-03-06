@@ -169,10 +169,20 @@ str1 += "]"
 print(str1)
 
 
+// Tuples and Sets
 
+var dog : (String,Int) = ("Oscar",8)
+dog.0
 
+var specialNumber : Set =  [1,2,3,4,5,6,6,6]
 
+specialNumber.insert(999)
+specialNumber.contains(6)
+specialNumber
 
+// Create a string for favorite food
 
-
+var favFood : Set =  ["Momos","Samosa","Dosa","Idli","Idli","maggi"]
+favFood.insert("Pizza")
+favFood
 
