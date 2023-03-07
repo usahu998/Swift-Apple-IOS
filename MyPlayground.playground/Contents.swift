@@ -217,4 +217,11 @@ func add1(num1 : Int,num2 : Int) -> Int {
 var c = add1(num1: 9, num2: 22)
 var d = add1(num1: 92, num2: 12)
 var sum = add1(num1: c, num2: d)
-print("sum of numbers= \(sum)!")
+print("sum of numbers = \(sum)!")
+
+func printMachine(text : String, noOfTimes : Int){
+    for _ in 1...noOfTimes {
+        print(text)
+    }
+}
+printMachine(text: " i love Swift", noOfTimes: 10)
