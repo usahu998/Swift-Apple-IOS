@@ -225,3 +225,24 @@ func printMachine(text : String, noOfTimes : Int){
     }
 }
 printMachine(text: " i love Swift", noOfTimes: 10)
+
+////////////////////////////////////////////////////////////
+
+//Optionals
+
+if let age = Int("40"){
+    print(age)
+}
+
+var age12 : Int? = nil
+print(age12)
+
+func printOptional(text : String?) {
+    if let theText = text {
+        print(theText)
+    } else {
+        print("It is nil ")
+    }
+}
+
+printOptional(text: "apple")
