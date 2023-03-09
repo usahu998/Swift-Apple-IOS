@@ -246,3 +246,41 @@ func printOptional(text : String?) {
 }
 
 printOptional(text: "apple")
+
+/////////////////////////////////////////////////////////
+
+//Classes
+
+class Dog{
+    var name = ""
+    var age = 0
+    var furColor = ""
+    
+    func bark() {
+        print("Woof! my dog name is \(name) i am \(age) year old and my color is \(furColor)")
+    }
+}
+
+var myDog = Dog()
+myDog.name = "Oscar"
+myDog.age = 8
+myDog.furColor = "Black"
+print(myDog.name)
+print(myDog.age)
+print(myDog.furColor)
+myDog.bark()
+
+var dog1 = Dog()
+dog1.name = "Jimmy"
+dog1.age = 5
+dog1.furColor = "White"
+print(dog1.name)
+print(dog1.age)
+print(dog1.furColor)
+dog1.bark()
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
