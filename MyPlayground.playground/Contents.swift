@@ -281,6 +281,22 @@ dog1.bark()
 
 //////////////////////////////////////////////////////////////////////////////////////
 
+//Structs
+
+struct Car{
+    var name = ""
+    var color = ""
+    var price = 0
+    
+    func model() {
+        print("Car modal name \(name) car color \(color) year old and car price is \(price)")
+    }
+}
+var car = Car()
+car.name = "Safari"
+car.color = "Grey"
+car.price = 234567
+car.model()
 
 
 
