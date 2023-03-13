@@ -298,5 +298,24 @@ car.color = "Grey"
 car.price = 234567
 car.model()
 
+////////////////////////////////////////////////////////////////////////////
+
+//Enums
+
+enum Compass{
+    case North
+    case South
+    case East
+    case West
+}
+
+var direction : Compass = .East
+
+func getDirections(WhichWay : Compass){
+    if WhichWay == .East {
+        print("Turn Rignt")
+    }
+}
+getDirections(WhichWay: .East)
 
 
