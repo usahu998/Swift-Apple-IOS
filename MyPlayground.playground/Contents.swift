@@ -319,3 +319,24 @@ func getDirections(WhichWay : Compass){
 getDirections(WhichWay: .East)
 
 
+///////////////////////////////////////////////////////////////////////
+
+//Switches
+
+var week = 1
+
+switch week {
+case 1...3:
+    print("Sunduy to tuesday")
+case 4...7:
+    print("wednesday to saturday")
+default:
+    print("Invalid key")
+    
+}
+
+////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
