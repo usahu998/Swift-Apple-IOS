@@ -337,6 +337,38 @@ default:
 
 ////////////////////////////////////////////////////////////////////////////////////
 
+//****************************************Coding Project 2*******************************************
 
+// WAP to count number of words
+func countWords(words: String){
+    var text = words.lowercased()  // converted all character to lower case
+    
+    let words = text.components(separatedBy: " ")  // splitting where space is present
+    
+    var wordDictionary : [String:Int] = [:]  //empty dictionary
+    
+    for word in words {
+        if wordDictionary[word] == nil {
+            wordDictionary[word] = 1
+        }else{
+            wordDictionary[word] = wordDictionary[word]! + 1
+        }
+    }
+    print("\(wordDictionary.count) words")
+    print(wordDictionary)
+    
+   let shortesWords = wordDictionary.sorted { (word1,word2) -> Bool in
+        return word1.value > word2.value
+        
+    }
+    
+    print(shortesWords)
+    
+    var rank = 1
+    for word in shortesWords {
+        print("\(rank). \(word.key) - \(word.value) ")
+        rank = rank + 1
+    }
+}
 
-
+countWords(words: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.")
